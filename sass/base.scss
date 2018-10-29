@@ -1,7 +1,20 @@
 // color variables
+ $home-background: #34495e;
+ $web-dev-home: #1F3A93;
+ $reiki-home: #D91E18;
+ //another reiki option #FF0000
+ $coins-home: #913D88;
+ //different options for coins
+ /* 
+#9A12B3
+#BF55EC
+#BE90D4
+#8E44AD
+#9B59B6
+ */
 
 // font variables
-
+$primary-font: 'Raleway', sans-serif;
 
 
 *,
@@ -10,6 +23,11 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: inherit;
+}
+
+html{
+	box-sizing: border-box;
+	font-size: 62.5% // 10px/16px = 62.5% -> 1rem = 10px
 }
 
 body{
