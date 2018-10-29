@@ -1,0 +1,26 @@
+// color variables
+
+// font variables
+
+
+
+*,
+*::before,
+*::after{
+	margin: 0;
+	padding: 0;
+	box-sizing: inherit;
+}
+
+body{
+	font-family: $primary-font;
+	color: $primary-color;
+	font-weight: 400;
+	line-height: 1.6;
+}
+
+.grid{
+	display: grid;
+	grid-template-columns: 1fr min-content 1fr;
+	grid-template-rows: repeat(3, 1fr);
+}
