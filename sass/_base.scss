@@ -1,5 +1,5 @@
 // color variables
- $home-background: #34495e;
+ $background: #34495e;
  $web-dev-home: #1F3A93;
  $reiki-home: #D91E18;
  //another reiki option #FF0000
@@ -32,13 +32,14 @@ html{
 
 body{
 	font-family: $primary-font;
-	color: $primary-color;
+	// color: $primary-color;
 	font-weight: 400;
 	line-height: 1.6;
+	background-color: $background; 
 }
 
 .grid{
 	display: grid;
-	grid-template-columns: 1fr min-content 1fr;
-	grid-template-rows: repeat(3, 1fr);
+	grid-template-columns: 1fr, min-content, 1fr;
+	grid-template-rows: min-content;
 }

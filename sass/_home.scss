@@ -1,0 +1,45 @@
+.home{
+	grid-column: 2/3;
+	grid-row: 1/-1;
+	justify-self: center;
+	align-self: center;
+
+	&__item{
+		font-size: 2.5rem;
+		padding: 10rem 25rem;
+		border-radius: 10%;
+		margin: 20rem;
+		border: 1px solid lightslategrey;
+		justify-self: center;
+		color: white;
+		text-align: center;
+		// transition: all 1.2s;
+	}
+
+	&__item > a{
+		text-decoration: none;
+		color: white;
+		width: 40rem;
+	}
+
+	&__web-development{
+		background-color: $web-dev-home;
+	}
+
+	&__web-development:hover{
+
+	}
+
+
+	&__reiki{
+		background-color: $reiki-home;
+	}
+
+	&__reiki:hover{
+
+	}
+
+	&__collectible-coins{
+		background-color: $coins-home;
+	}
+}
